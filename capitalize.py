@@ -7,11 +7,11 @@ import re
 import sys
 
 # Complete the solve function below.
-def first_non_numeric(string):
+def first_non_numeric(string) -> tuple:
     for count, letter in enumerate(string):
         if not letter.isnumeric():
             return letter.upper(), count + 1
-def solve(s):
+def solve(s) ->:
     first,last = s.split(" ")
     first_upper,first_splice_indice = first_non_numeric(first)
     last_upper, last_splice_indice = first_non_numeric(last)
