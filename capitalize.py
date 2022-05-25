@@ -24,4 +24,4 @@ def solve(s):
     return capitalized
 
 
-print(solve("123e2dgar 123hernande2z"))
+print(solve("123edgar 123hernandez"))
